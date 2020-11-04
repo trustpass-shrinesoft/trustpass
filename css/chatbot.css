@@ -24,7 +24,47 @@
 		width:30px;
 		
 	  }
-  
+  /*for business.html-------------------------------------------------------------------------------------*/
+  #img1 {
+		width: 150%
+	  }
+	  #div1 {
+		margin-top: 70px;
+		padding:20px 0px 20px 20px;
+		background-color: #fff7f5
+	  }
+	  #img2 {
+		width: 150%;
+		margin-left: 280px
+	  }
+	  #div2 {
+		margin-top: 70px;
+		padding:20px;
+		background-color: #fff7f5;
+		position: absolute;
+		width: 470px
+	  }
+	  #img3 {
+		width: 150%
+	  }
+	  #div3 {
+		margin-top: 100px;
+		margin-left: 50px;
+		padding:20px 0px 20px 20px;
+		background-color: #fff7f5
+	  }
+	  #img4 {
+		width: 150%;
+		margin-left: 280px
+	  }
+	  #div4 {
+		margin-top: 70px;
+		padding:20px;
+		background-color: #fff7f5;
+		position: absolute;
+		width: 470px
+	  }
+  /*for business.html-------------------------------------------------------------------------------------*/
 	@media only screen and (max-width: 600px) {
 	  #chatbot_icon {
 		position: fixed;
@@ -52,4 +92,47 @@
 		width:20px;
 		
 	  }
+	  /*for business.html-------------------------------------------------------------------------------------*/
+  #img1 {
+		width: 150%
+	  }
+	  #div1 {
+		margin-top: 10px;
+		padding:20px 0px 20px 20px;
+		background-color: #fff7f5
+	  }
+	  #img2 {
+		width: 150%;
+		margin-left: 280px
+	  }
+	  #div2 {
+		margin-top: -70px;
+		padding:20px;
+		background-color: #fff7f5;
+		position: absolute;
+		width: 320px
+	  }
+	  #img3 {
+		width: 150%;
+		margin-top : 2%;
+	  }
+	  #div3 {
+		margin-top: 10px;
+		margin-left: 0px;
+		padding:20px 0px 20px 20px;
+		background-color: #fff7f5
+	  }
+	  #img4 {
+		width: 150%;
+		margin-left: 0px;
+		margin-top: 90%;
+	  }
+	  #div4 {
+		margin-top: -70px;
+		padding:20px;
+		background-color: #fff7f5;
+		position: absolute;
+		width: 320px
+	  }
+  /*for business.html-------------------------------------------------------------------------------------*/
 }
