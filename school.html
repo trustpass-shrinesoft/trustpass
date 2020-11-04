@@ -12,27 +12,8 @@
 <link rel="stylesheet" href="css/slick.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/chatbot.css">
 <script src="js/vendor/modernizr.min.js"></script>
-<style>
-#chatbot_icon {
-position: fixed;
-bottom: 10px;
-right: 10px;
-z-index: 10;
-}
-#chatbot {
-position: fixed;
-bottom: 10px;
-right: 10px;
-z-index: 10;
-}
-#close_chatbot {
-position: fixed;
-bottom: 400px;
-right: 360px;
-z-index: 10;
-}
-</style>
 <script>
 function chatbot(){
 
@@ -63,7 +44,7 @@ c.style.display="none";
         </a>
         <nav id="mainmenu">
             <ul>
-                <li><a href="index.html#mainbanner" tit0le="Home">Home</a></li>
+                <li><a href="index.html" tit0le="Home">Home</a></li>
                 <!--<li><a href="index.html#mobileappsection" title="Services">Services</a></li>
                 <li><a href="index.html#meetingformsection" title="Request">Request</a></li>
                 <li class="active"><a href="index.html#categoriessection" title="category">category</a></li>
@@ -93,13 +74,12 @@ c.style.display="none";
                     </div>
                 </div>
             </div><!--/#sidebar-->
-            <div><img onclick="close_chatbot()" id="close_chatbot" src="close.jpg" style="height:30px;width:30px;display:none"></div><iframe id="chatbot"
+            <div><img onclick="close_chatbot()" id="close_chatbot" src="close.jpg" style="display:none"></div><iframe id="chatbot"
 allow="microphone;"
-width="350px"
-height="430px"
+
 src="https://console.dialogflow.com/api-client/demo/embedded/0fe14443-6102-4496-aa77-80e876f19dbb" style="display:none; border-radius:5%">
 </iframe>
-    <div><img id="chatbot_icon" src="chatbot_icon.jpg" style="height:80px ; width:100px;border-radius: 20%" onclick="chatbot()"></div>
+    <div><img id="chatbot_icon" src="chatbot_icon.jpg" onclick="chatbot()"></div>
             <div id="primary" class="content-area">
                 <div id="content" class="site-content">
                     <div class="secondarytitlewrapper">

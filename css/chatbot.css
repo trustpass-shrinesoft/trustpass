@@ -1,0 +1,55 @@
+	#chatbot_icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+	height:80px;
+	width:100px;
+	border-radius: 20%
+  }
+  #chatbot {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 10;
+		width:350px;
+        height:430px
+	  }
+	  #close_chatbot {
+		position: fixed;
+		bottom: 400px;
+		right: 360px;
+		z-index: 10;
+		height:30px;
+		width:30px;
+		
+	  }
+  
+	@media only screen and (max-width: 600px) {
+	  #chatbot_icon {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 10;
+		height:50px;
+		width:70px;
+		border-radius: 20%
+	  }
+	  #chatbot {
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 10;
+		width:300px;
+        height:380px
+	  }
+	  #close_chatbot {
+		position: fixed;
+		bottom: 355px;
+		right: 309px;
+		z-index: 10;
+		height:20px;
+		width:20px;
+		
+	  }
+}
