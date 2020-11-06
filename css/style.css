@@ -1,7 +1,16 @@
 /* =Import Required styles
 ========================================================================================*/
 @import url(normalize.css);
+/*================video popup===================================*/
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
 
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
 /* =Box Sizing 
 ========================================================================================*/
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }

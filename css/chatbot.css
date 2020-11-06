@@ -24,6 +24,16 @@
 		width:30px;
 		
 	  }
+	   /*-----------------video pop up------------*/
+	   #videopopupframe{
+	  width:854px; 
+	  height:480px
+	}
+	.mfp-close-btn-in .mfp-close {
+    background: white;
+	    border-radius: 15%;
+		margin-right: 28%;
+}
   /*for business.html-------------------------------------------------------------------------------------*/
   #img1 {
 		width: 150%
@@ -134,5 +144,15 @@
 		position: absolute;
 		width: 320px
 	  }
-  /*for business.html-------------------------------------------------------------------------------------*/
+  
+  /*-----------------video pop up------------*/
+	   #videopopupframe{
+	  width:250px; 
+	  height:300px
+	}	
+	.mfp-close-btn-in .mfp-close {
+    background: white;
+	    border-radius: 15%;
+		margin-right: 2%;
+}
 }

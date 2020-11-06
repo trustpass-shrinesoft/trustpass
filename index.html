@@ -13,7 +13,11 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/chatbot.css">
 	<script src="js/vendor/modernizr.min.js"></script>
-	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 <script>
 function chatbot(){
 
@@ -65,15 +69,30 @@ function close_chatbot(){
                 <div class="butttonwrapper">
                     <a href="#mobileappsection" class="button btn-arrow-down" title="DISCOVER">DISCOVER</a>
                     
-                    <a href="https://www.youtube.com/watch?v=g6z7qfk5maw" class="link vidlink" target="_blank">Watch Video</a>
+                    <!--<a href="https://www.youtube.com/watch?v=g6z7qfk5maw" class="link vidlink" target="_blank">Watch Video</a>-->
+					
+
+   <a href="#videoStory" class="link vidlink" id="videoLink">Watch Video</a>
+   
+   <div id="videoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+    <iframe class="embed-responsive-item" id="videopopupframe"  src="https://www.youtube.com/embed/g6z7qfk5maw?autoplay=1" frameborder="0" allow="encrypted-media" allowfullscreen><button>X</button></iframe>
+      <!--<iframe width="853" height="480" src="https://www.youtube.com/embed/g6z7qfk5maw?autoplay=1" frameborder="0" allowfullscreen></iframe>-->
+   </div>
+
+
+<script>
+$('#videoLink')
+.magnificPopup({
+	  type:'inline',
+	  midClick: false // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+})
+</script>
                 </div>
             </div>
         </div> <!--/.wrap-->
         <a href="#" class="scrolldown"><span class="mouseicon"></span>scrolldown</a>
 		<div><img onclick="close_chatbot()" id="close_chatbot" style="display:none" src="close.jpg"></div><iframe id="chatbot"
     allow="microphone;"
-    width="350px"
-    height="430px"
     src="https://console.dialogflow.com/api-client/demo/embedded/0fe14443-6102-4496-aa77-80e876f19dbb" style="display:none; border-radius:5%">
 </iframe>
 		<div><img id="chatbot_icon" src="chatbot_icon.jpg" onclick="chatbot()"></div>
